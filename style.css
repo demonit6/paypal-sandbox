@@ -1,0 +1,137 @@
+body{
+	background-color: #EDEDED;
+	font-family: 'Montserrat', sans-serif;
+}
+.c-container{
+	margin: 0 auto;
+	max-width: 72.0rem;
+	padding: 0 2.0rem;
+	position: relative;
+	width: 100%;
+}
+#panel{
+	padding: 10px;
+	border-bottom: 1px solid #888;
+	background-image: linear-gradient(135deg, #7d2ed4, #701a74);
+	-webkit-box-shadow: 0 0 5px #888;
+	-moz-box-shadow: 0 0 5px #888;
+	-ms-box-shadow: 0 0 5px #888;
+	-o-box-shadow: 0 0 5px #888;
+	box-shadow: 0 0 5px #888;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+#panel a{
+	padding: 5px 10px;
+	display: inline-block;
+	color: #FFF;
+}
+#panel a:hover{
+	color: #000;
+}
+#panel i{
+	padding: 5px;
+}
+#product{
+	padding: 100px 0;
+}
+.product-list{
+	padding: 10px 0;
+}
+.product-list-detail{
+	padding: 10px;
+	background-color: #EDEDED;
+	-webkit-box-shadow: 0 0 5px #888;
+	-moz-box-shadow: 0 0 5px #888;
+	-ms-box-shadow: 0 0 5px #888;
+	-o-box-shadow: 0 0 5px #888;
+	box-shadow: 0 0 5px #888;
+	border-radius: 5px;
+	position: relative;
+	transition: all .25s;
+}
+.product-list-detail:hover{
+	background-color: #FFF;
+}
+.img-header{
+	font-size: 20px;
+}
+.img-product{
+	max-width: 200px;
+	width: 100%;
+	display: block;
+	padding: 30px;
+	margin: auto;
+	position: relative;
+}
+.img-thumb{
+	max-width: 100px;
+	width: 100%;
+	display: block;
+	padding: 5px;
+	margin: auto;
+	position: relative;
+}
+.text-center{
+	display: block;
+	text-align: center;
+}
+a.btn{
+	display: inline-block;
+	padding: 5px 30px;
+	font-size: 16px;
+	background-color: #771eb5;
+	border: 2px solid #771eb5;
+	border-radius: 50px;
+	color: #FFF;
+}
+a.btn:hover{
+	background-color: #EDEDED;
+	color: #771eb5;
+}
+.description-product{
+	background-color: #DDD;
+	color: #771eb5;
+	padding: 10px;
+	border-radius: 5px;
+}
+.price-tag{
+	position: absolute;
+	font-size: 30px;
+	top: 60px;
+	right: 50px;
+	background-color: rgba(255,255,255,.75);
+	padding: 10px;
+	border-radius: 50px;
+	color: #771eb5;
+}
+.div{
+	padding: 10px 0;
+}
+td{
+	vertical-align: middle;
+}
+#footer{
+	padding: 20px;
+	background-color: #000;
+	text-align: center;
+	color: #FFF;
+}
+#footer i{
+	color: red;
+}
+#to-up{
+	cursor: pointer;
+	position: fixed;
+	padding: 10px 20px;
+	background-color: #771eb5;
+	bottom: 40px;
+	right: 20px;
+	color: #FFF;
+	opacity: 0;
+	visibility: 0;
+	transition: all .25s;
+	border-radius: 50px;
+}
